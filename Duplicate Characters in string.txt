@@ -1,0 +1,25 @@
+From- https://youtu.be/mJyi6GhOlO0
+
+
+
+public class DuplicateChar
+{
+     public static void main(String [] args)
+     {
+     String name= "Dharmendra";
+     int length=name.length();
+     char[] ch=name.toCharArray();   //to change into Array
+          for(int i=0;i<length;i++)
+              {
+                for(int j=0;j<length;j++)
+                   {
+                    if(ch[i]==ch[j])
+                             {
+                            System.out.println("Duplicate characters are: " + cha[j]);
+                             }
+                   }
+              }
+
+
+     }
+}

@@ -1,0 +1,24 @@
+From - https://www.youtube.com/watch?v=un9l8c0O_TU
+
+class Solution
+{
+public  boolean rotateString(String s1,String S2)
+               {
+                String whole= s1+s2;
+                        if(s1.length()!=s2.length())
+                             {
+                              return false;
+                             }
+                        if(whole.indexOf(s2)==-1)
+                             {
+                                       reutrn false;
+                              }
+                                else
+                               {
+                               return true;
+                               }
+
+                
+               }
+
+}
